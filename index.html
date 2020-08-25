@@ -1,104 +1,433 @@
 <!DOCTYPE html>
-<html>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146880046-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-146880046-1');
-</script>
-
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <title>Ibad Ur Rahman</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="ibad.css">
-  <!-- thumbnail
-  put path of icon in place of #
--->
-  <link class="icon" rel="icon" href="#">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro|Raleway+Dots|Josefin+Slab|Glegoo|Anton|Oswald" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Ibad Ur Rahman</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
 
 <body>
-<div class="navbar">
-    <a  href="#researchsection"> other heading </a>
-    <a  href="#portfoliosection"> Portfolio </a>
-    <a  href="#aboutmesection"> About </a>
-    <a  href="#homesection"> Home </a>
-</div>
 
-<!-- homesection  -->
-<div class="homesection" id="homesection">
-  <div class="homeimage">
-  </div>
-    <div class="centered">
-      <h1>Ibad Ur Rahman</h1>
-      <hr>
-      <p>Currently I am a Big Data Engineer (Elastic Stack) at Barclays UK. I am a Data Scientist plus a programmer with a masters Degree in Data Analytics from The University of Sheffield.
-       I have worked on Bayesian Neural Networks and Attention Mechanisms as a part of my thesis and have a theoretical and practical understanding of Attention Mechanisma and Deep Bayesian Neural Networks.
-        I write articles on medium explaining complex machine learning algorithms and I also write kernels on kaggle analysing and inferring from data available over there. An avid reader and love to teach.
-        
-        <br>
-      My interests are in the field of Deep Neural Networks and its theoretical understanding and its application on the amount of data that is generated over here.</p>
-    </div>
-</div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-  
- <!-- portfoliosection -->
-<div class="PORTFOLIOSECTION" id="portfoliosection">
-    <div class="portfoliotext">
-    <h1 class="sectiontitle">Portflio</h1>
-    <hr>
-    <div class="container">
+      <nav id="nav-wrap">
 
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#hobbies">My Hobbies</a></li>
+         </ul> <!-- end #nav -->
 
-      <div class="col-md-4">
-        <div class="imagewrap">
-        <p><b>title </b> <br> </p>
-        <a class="image_img" target="_blank" href="#"> <img src="coverphoto.jpeg" alt=""></a>
-        <p class="imagedescription">short project description <br>    </p>
-      </div>
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Ibad Ur Rahman.</h1>
+            <h3>I am a <span>Data Scientist</span>, <span></span> Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+
+               <li><a href="https://www.medium.com/@ibaad"><i class="fa fa-medium"></i></a></li>
+               <li><a href="https://twitter.com/ibad_ur_rahman"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/ibad2762/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/ibadia"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
       </div>
 
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-</div>
-</div>
-</div>
+   </header> <!-- Header End -->
 
-<!-- research section -->
-<div class="RESEARCHSECTION" id="researchsection">
-    <div class="researchtext">
-      <h1 class="sectiontitle">Other Heading</h1>
-      <hr>
-  <div class="container">
-        <div class="col-sm-6">
-          <p>text </p>
-        </div>
 
-        <div class="col-sm-6" style="font-size:12pt;">
-          <p> text </p>
-        </div>
-</div>
-</div>
-</div>
-</div>
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/ibad_profile.jpeg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I have strong mathematical knowledge of Machine Learning algorithms, particularly bayesian machine learning in which I am most interested in. Have worked on Attention Mechanisms, Deep Learning and Bayesian Approach to Machine learning. Currently I am working at Barclays UK as a Big Data Engineer in ESAAS team (Elastic Stack as a Service team). I write articles on medium to explain data science in easy terms. I also write notebooks on kaggle.com to do data visualisations and explain about data science.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Ibad Ur Rahman</span><br>
+						 
+                     <span>ibad2762 @ g m a i l.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="attachments/ibad_ur_rahmancv.pdf" class="button"><i class="fa fa-download"></i>Download CV</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>The University of Sheffield, United Kingdom</h3>
+                  <p class="info">Master in Data Analytics <span>&bull;</span> <em class="date">Sept 2018 - Sept 2019</em></p>
+
+                  <p>
+                     • Text Processing, Machine Learning and Adaptive Intelligence (in Python), Statistical Data Science in R, Industrial Team Project ,Natural Language
+
+Processing, Scalable Machine Learning, Professional Issues, Parallel Computing with GPU, Individual dissertation project
+
+• Acheived overall Distinction in First Semester.
+
+• Dissertation Topic: Interpretable Probabilistic Deep Learning for Text Classification which includes applying bayesian modeling on Deep Recurrent Neural Networks to make the model better explainable
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>National University of Computer and Emerging Sciences, Pakistan</h3>
+                  <p class="info">Bachelors of Science in Computer Science <span>&bull;</span> <em class="date">August 2014 - May 2018</em></p>
+
+                  <p>
+                     Main courses include: Software Engineering, Data Science, Object Oriented Programming, Algorithms, Data Structures, Introduction to Operating Systems, Computer Networks, Introduction to Programming, Discrete Structures, Database Design, Information Processing Techniques
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Barclays Northampton, United Kingdom</h3>
+                  <p class="info">Big Data Engineer  <span>&bull;</span> <em class="date">October 2019 - Present</em></p>
+                   Working with optimising the clusters to ensure data is received without any lag, Writing automation scripts to ease the process of cluster maintanence.
+                  <p>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>NexDegree Karachi, Pakistan</h3>
+                  <p class="info">Data Engineer <span>&bull;</span> <em class="date">June 2018 - September 2018</em></p>
+                     • Data-Pipeline and deployment of a Machine Learning Model for a micro-finance bank which gives out loan based on the User Behaviour.
+                     • Geo-Visualisation for a bank to get the better idea of which location gives the highest return of loan.
+                     • Natural Language Processing, Clustering Analysis for an online pharmacy to extract business insights and general user behaviour.
+                     • Explaining the model results to the client and suggesting business benefits the organization can get using Machine Learning.
+                  <p>
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- PROJECT
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Some Selected Projects</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Interpretable Probabilistic Deep Learning for Text Classification</h3>
+                  <p class="info">Masters Thesis University of Sheffield  <span>&bull;</span> <em class="date">June 2019 - August 2019</em></p>
+                  Applied Variational Inference and MCDropout approach on Encoder Decoder Architecture in order to make the model for text classification
+more interpretable. Applied Bayesian Machine learning techniques on RNN along with Attention Mechanism to make it predict the sentiment
+of a text much better with explanation given by the model of its prediction. This can be also be applied to healthcare related machine learning
+as there is a dire need of explanation for a prediction done by the model. This techniques does not depends completely on the model but
+rather gives a measure of confidence and also highlights the parts of the input that were responsible for the particular prediction.
+                  <p>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Validation of Scoring Criteria and Scoring Thresholds within GWEEK’s Speech Intelligence</h3>
+                  <p class="info">GWEEK’S SPEECH INTELLIGENCE <span>&bull;</span> <em class="date"> Feb. 2019 - May. 2019</em></p>
+                Objectives of this project were identifying the existence of any relationship between GWEEK score and Vocabulary, and classifying between
+Read and Planned Speech. As a result of the first task, it was found that Vocabulary did not have a major impact on the GWEEK score. For
+second task, Deep Learning, as well as classical Machine Learning approaches were applied on raw audio data and extracted text data from the
+audio. The classical machine learning methods on extracted text fetched better results than the Deep Learning approach on raw audio, which
+implies that extracted features given to model work better than raw features like audio.
+<br>
+Mentioned on University website <a href="https://www.sheffield.ac.uk/dcs/news/why-working-industry-benefits-everyone">Link</a> 
+                  <p>
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+                        <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Detailed Analysis of Bitcoins Transactions using Big-Query</h3>
+                  <p class="info">Kaggle <span>&bull;</span> <em class="date"> Feb. 2018 - March. 2018</em></p>
+                  <ul>
+               <li>  Detailed analysis of 821GB of bitcoin transactions data available on Kaggle through Google Big Query.</li>
+               <li> Analysed the trends in transactions and some of its unique characteristics using plotly, Google BigQuery api, and python notebook. </li>
+               <li> Link to analysis: <a href=https://www.kaggle.com/ibadia/bitcoin-101-bitcoins-and-detailed-insights>Kaggle_bitcoin_project</a> </li>
+                  
+</ul>
+                  <p>
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End PROJECT -->
+
+
+
+
+
+
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>I have skills in python, particularly pytorch. Have worked on big data using Elastic Stack.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Bayesian Machine Learning</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Bayesian Neural Network</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Attention Mechanisms</em></li>
+						<li><span class="bar-expand css"></span><em>Python</em></li>
+						<li><span class="bar-expand html5"></span><em>NLP</em></li>
+                     <li><span class="bar-expand html5"></span><em>ElasticSearch</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+
+
+
+
+
+
+
+
+
+
+   </section> <!-- Resume Section End-->
+
+
+
+
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="hobbies">
+
+      <div class="row">
+
+         <div class="three columns">
+
+          
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>My Hobbies</h2>
+
+            <p>In my free time, I like horse riding and camping. I like trekking a lot. Saturdays and Sundays are spent going to the country side and just exploring or horse riding. The picture on the top is me with Harley (the horse). More of a countryside guy instead of a beach guy.
+            </p>
+
+
+   </section> <!-- About Section End-->
+
+
+
+
+ 
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.medium.com/@ibaad"><i class="fa fa-medium"></i></a></li>
+               <li><a href="https://twitter.com/ibad_ur_rahman"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/ibad2762/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/ibadia"><i class="fa fa-github"></i></a></li>
+
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
 
-<!-- footer -->
-    <footer class="footer">
-    <a href="#" target="_blank"><img class="twitter" src="twitter1.png" alt="twitter1"style="width:4.6%;"></a>
-    <a href="#" target="_blank"><img class="insta" src="linkedin.png" alt="linkedin" style="width:3.9%;"></a>
-    <a href="#"><img src="git1.svg" target="_blank" alt="git" style="width:3.9%;margin:2px;"></a>
-    <a href="#" target="_top"><img class="twitter" src="mail2.png" alt="mail"style="width:4%;"></a>
-        <p>©  By Gioia Iacopini, 2018  </p>
-    </footer>
-    <!-- end of footer -->
-
-</body>
 </html>
